@@ -1,0 +1,364 @@
+/* import google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* default style */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  background: #1e1d2b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* =======================styling header section======================= */
+
+header#topBar {
+  background: #1e1d2b;
+  padding: 15px 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+  padding: 0px 15px;
+}
+
+.barWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo a {
+  font-size: 30px;
+  color: orangered;
+}
+
+ul#mainMenuItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul#mainMenuItem li a {
+  padding: 0px 15px;
+  color: white;
+  transition: 0.3s;
+}
+
+ul#mainMenuItem li a:hover {
+  cursor: pointer;
+  color: orangered;
+}
+
+.bars i {
+  font-size: 25px;
+  color: white;
+}
+
+.bars {
+  display: none;
+  opacity: 0;
+}
+
+/* =======================styling homeSlider section======================= */
+
+#homeSlider {
+  width: 100%;
+  height: 100%;
+}
+
+.sliderWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 130px 0px;
+  overflow: hidden;
+}
+
+.slideLeft {
+  width: 50%;
+}
+
+.slideLeft h1 {
+  font-size: 40px;
+  color: orangered;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.slideLeft p {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.btn {
+  background: orangered;
+  border: none;
+  padding: 9px 15px;
+  color: white;
+  border-radius: 7px;
+  font-weight: 500;
+  margin-top: 15px;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.slideRight {
+  max-width: 35%;
+}
+
+/* ===================styling about section=================== */
+.aboutWrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.aboutLeftImg {
+  width: 30%;
+  margin: auto;
+}
+
+.aboutRightContent {
+  width: 40%;
+  margin: auto;
+  color: white;
+}
+
+.aboutRightContent h4 {
+  color: orangered;
+}
+
+.aboutRightContent h1 {
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+
+.aboutRightContent p {
+  font-weight: 300;
+  color: #c3c3c3;
+  line-height: 20px;
+}
+
+/* ===================styling foodMenu section=================== */
+.secTitle {
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.secTitle h4 {
+  color: orangered;
+  font-weight: 500;
+}
+
+.secTitle h1 {
+  font-weight: 500;
+}
+
+.foodMenuWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.singleBurger {
+  background: #e3d4d4;
+  padding: 15px;
+  position: relative;
+  width: 20%;
+  border-radius: 8px;
+}
+
+.singleBurger img {
+  width: 45%;
+  margin: auto;
+}
+
+.singleBurger h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.singleBurger p {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 5px 0px;
+}
+
+.singleBurger span {
+  color: orangered;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.addCart {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background: orangered;
+  padding: 5px;
+  width: 20px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: white;
+  height: 20px;
+}
+
+/* ===================styling sarvice section=================== */
+.serviceWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.singleServie {
+  width: 25%;
+  padding: 10px;
+}
+
+.singleServie img {
+  width: 25%;
+}
+
+.singleServie h1 {
+  color: orangered;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 5px 0px;
+}
+
+.singleServie p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 15px;
+}
+/* ===============styling quality food=============== */
+.qualityFoodWrapper {
+  background: #e3d4d4;
+  width: 80%;
+  margin: auto;
+  padding: 40px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* ===============styling footer section=============== */
+
+#footer {
+  padding: 60px 0px;
+}
+
+.footerWrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.singleFoot {
+  color: white;
+  width: 15%;
+}
+
+.singleFoot h2 {
+  font-size: 16px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.singleFoot h2::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  background: orangered;
+  width: 50px;
+  height: 2px;
+  display: block;
+}
+
+.singleFoot ul li a {
+  color: #888;
+  font-size: 14px;
+  font-weight: 400;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.singleFoot ul li a:hover {
+  margin-left: -10px;
+  cursor: pointer;
+}
+
+ul#socialLink li a {
+  background: orange;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: white;
+  float: left;
+  margin-right: 10px;
+}
+
+ul#socialLink li a:hover {
+  margin-left: 0px !important;
+  cursor: pointer;
+}

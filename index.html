@@ -5,10 +5,230 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>fast-food-website</title>
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
     <!-- link main css file -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- link responsive css file -->
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
   <body>
+    <!-- start header section -->
+    <header id="topBar">
+      <div class="container">
+        <div class="barWrapper">
+          <div class="logo">
+            <a href="#logo">Foods</a>
+          </div>
+          <div class="menu">
+            <ul id="mainMenuItem">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="bars">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- start homeslider section -->
+    <div id="homeSlider">
+      <div class="container">
+        <div class="sliderWrapper">
+          <div class="slideLeft">
+            <h1>Full Website</h1>
+            <p>Foods the</p>
+            <p>most precious things</p>
+            <button class="btn">Today's Menu</button>
+          </div>
+          <div class="slideRight">
+            <img src="./assets/img/home.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end homeslider section -->
+
+    <!-- start aboutUs section -->
+    <section id="about">
+      <div class="container">
+        <div class="aboutWrapper">
+          <div class="aboutLeftImg">
+            <img src="./assets/img/about.png" alt="" />
+          </div>
+          <div class="aboutRightContent">
+            <h4>About Us</h4>
+            <h1>
+              We Peak the good <br />
+              food language
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              ipsam, iste necessitatibus doloremque amet error quis vitae maxime
+              similique consequatur. Possimus cumque laborum doloribus eaque
+              dignissimos quisquam quasi, dolores quo?
+            </p>
+            <button class="btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end aboutUs section -->
+
+    <!-- start food menu -->
+    <section id="foodMenu">
+      <div class="container">
+        <div class="secTitle">
+          <h4>Food Menu</h4>
+          <h1>Fresh Taste and great prize</h1>
+        </div>
+        <div class="foodMenuWrapper">
+          <div class="singleBurger">
+            <div class="addCart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <img src="./assets/img/food1.png" alt="" />
+            <h2>Chicken Burger</h2>
+            <p>Tasty Food</p>
+            <span>$11.25</span>
+          </div>
+          <div class="singleBurger">
+            <div class="addCart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <img src="./assets/img/food2.png" alt="" />
+            <h2>Speacial Beef Burger</h2>
+            <p>Tasty Food</p>
+            <span>$11.25</span>
+          </div>
+          <div class="singleBurger">
+            <div class="addCart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <img src="./assets/img/food3.png" alt="" />
+            <h2>Chicken Fry Pack</h2>
+            <p>Tasty Food</p>
+            <span>$11.25</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end food menu -->
+
+    <!-- start service section -->
+    <section id="service">
+      <div class="container">
+        <div class="secTitle">
+          <h4>Service</h4>
+          <h1>We Provide Best Quality Food</h1>
+        </div>
+        <div class="serviceWrapper">
+          <div class="singleServie">
+            <img src="./assets/img/s1.png" alt="" />
+            <h1>Order</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+              sapiente?
+            </p>
+          </div>
+          <div class="singleServie">
+            <img src="./assets/img/s2.png" alt="" />
+            <h1>Shipping</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+              sapiente?
+            </p>
+          </div>
+          <div class="singleServie">
+            <img src="./assets/img/s3.png" alt="" />
+            <h1>Delevered</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+              sapiente?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end service section -->
+
+    <!-- start Quality food -->
+    <section id="qualityFood">
+      <div class="container">
+        <div class="qualityFoodWrapper">
+          <h1>
+            We Make Quality Food <br />
+            Everyday
+          </h1>
+          <button class="btn">Let't Talk</button>
+        </div>
+      </div>
+    </section>
+    <!-- end Quality food -->
+
+    <!-- start footer section -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footerWrapper">
+          <div class="singleFoot">
+            <h2>Menu Links</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="singleFoot">
+            <h2>Our Service</h2>
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Product Management</a></li>
+              <li><a href="#">Grafics Design</a></li>
+            </ul>
+          </div>
+          <div class="singleFoot">
+            <h2>Information</h2>
+            <ul>
+              <li><a href="#">Delevery Information</a></li>
+              <li><a href="#">Privecy Policy</a></li>
+              <li><a href="#">Terms and Condition</a></li>
+            </ul>
+          </div>
+          <div class="singleFoot">
+            <h2>Contact Us</h2>
+            <ul id="socialLink">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer section -->
+
     <!-- link main js file -->
     <script src="./assets/js/app.js"></script>
   </body>
